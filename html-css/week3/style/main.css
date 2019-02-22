@@ -133,12 +133,14 @@ footer{
     border-right: 1px solid #333333;
     border-bottom: 1px solid #333333;
     border-left: 1px solid #CCCCCC;
+    box-shadow: 2px 2px gray;
   }
 
   
 .next_button:hover {
     background-color:  #333333;
     color: #EEEEEE;
+    box-shadow: 2px 2px gray;
   }
  
 
