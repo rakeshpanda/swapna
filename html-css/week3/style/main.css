@@ -118,14 +118,29 @@ textarea {
     margin-left:3.5rem;
 }
 
-.next_button {
-  float: right;
-  width: 20%;
-  height: 100px;
-  margin-bottom: 20px;
-  font-weight: bold;
-  font-size: 30px;
+footer{
+    vertical-align: bottom;
+    text-align: end;
 }
+
+.next_button {
+    font: bold 1.5rem Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 1rem 1.5rem;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+  }
+
+  
+.next_button:hover {
+    background-color:  #333333;
+    color: #EEEEEE;
+  }
+ 
 
 input[type="checkbox"]:checked ~ div {
   display: none;
